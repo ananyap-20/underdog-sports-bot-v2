@@ -17,3 +17,6 @@ data/outbox/*
 data/raw/*
 data/outbox/*
 !data/raw/.gitkeep
+
+frontend/node_modules/
+frontend/dist/

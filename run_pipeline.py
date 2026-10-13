@@ -3648,6 +3648,12 @@ def main():
         days_back=args.days_back,
         generated_at=datetime.now(timezone.utc),
         generate_caption_fn=generate_caption,
+        stats={
+            "articles_scored": len(articles),
+            "promising_candidates": len(candidates),
+            "attention_checked": len(verification_candidates),
+            "qualified": len(final_stories),
+        },
     )
     print(
         f"[SAVE] Qualified output: {output_paths['latest_qualified']}"

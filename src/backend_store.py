@@ -49,6 +49,13 @@ def serialize_story(category: str, story, generate_caption_fn: Callable | None =
         "title": getattr(story, "title", ""),
         "url": getattr(story, "url", ""),
         "entities": _safe_value(getattr(story, "entities", [])),
+        "description": getattr(story, "description", None) or None,
+        "published_at": getattr(story, "published_at", None) or None,
+        "source_name": getattr(story, "source_name", None) or None,
+        "image_url": getattr(story, "image_url", None) or getattr(story, "urlToImage", None) or None,
+        "matched_signals": _safe_value(getattr(story, "matched_signals", [])),
+        "coverage_gap_score": float(getattr(story, "coverage_gap_score", 0.0) or 0.0),
+        "status_gap_score": float(getattr(story, "status_gap_score", 0.0) or 0.0),
         "achievement_score": float(getattr(story, "achievement_score", 0.0)),
         "underdog_score": float(getattr(story, "underdog_score", 0.0)),
         "combined_score": float(getattr(story, "combined_score", 0.0)),
@@ -79,6 +86,7 @@ def save_run_outputs(
     days_back: int,
     generated_at: datetime | None = None,
     generate_caption_fn: Callable | None = None,
+    stats: dict | None = None,
 ) -> dict[str, str]:
     generated_at = generated_at or datetime.now(timezone.utc)
     if generated_at.tzinfo is None:
@@ -100,6 +108,8 @@ def save_run_outputs(
         },
         "stories": stories,
     }
+    if stats:
+        latest_payload["pipeline_stats"] = _safe_value(stats)
 
     directory = _processed_dir()
     latest_path = directory / "latest_qualified.json"

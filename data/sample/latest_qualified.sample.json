@@ -1,0 +1,160 @@
+{
+ "generated_at": "2026-10-03T06:00:00+00:00",
+ "search_days_back": 7,
+ "count": 4,
+ "categories": {
+  "B+F": 1,
+  "B": 2,
+  "F": 1
+ },
+ "stories": [
+  {
+   "category": "B+F",
+   "title": "DEMO: Placeholder athlete A wins state title at a makeshift ground",
+   "url": "https://example.com/demo-story-1",
+   "entities": [
+    "Demo Athlete A"
+   ],
+   "description": "Fictional demo record used only to preview the interface.",
+   "published_at": "2026-10-02T08:00:00Z",
+   "source_name": "Demo Sports Daily",
+   "matched_signals": [],
+   "coverage_gap_score": 0.5,
+   "status_gap_score": 0.5,
+   "achievement_score": 0.8,
+   "underdog_score": 0.6,
+   "combined_score": 0.71,
+   "resource_b": true,
+   "resource_evidence": "makeshift ground",
+   "resource_evidence_origin": "page",
+   "f_narrative_evidence": "makeshift ground",
+   "public_attention_gap": true,
+   "reddit_discussion_count": 0,
+   "reddit_discussion_gap": true,
+   "reddit_total_comments": 0,
+   "reddit_top_score": 0,
+   "reddit_popularity": "low",
+   "known_audience_size": null,
+   "coverage_result_count": 12,
+   "coverage_news_result_count": 9,
+   "coverage_domains": [
+    "example.com"
+   ],
+   "institutional_sources": [],
+   "social_sources": [],
+   "public_attention_verification": "DEMO: placeholder evidence text.",
+   "caption": ""
+  },
+  {
+   "category": "B",
+   "title": "DEMO: Placeholder team B reaches final with borrowed equipment",
+   "url": "https://example.com/demo-story-2",
+   "entities": [
+    "Demo Team B"
+   ],
+   "description": "Fictional demo record used only to preview the interface.",
+   "published_at": "2026-10-01T09:30:00Z",
+   "source_name": "Demo Times",
+   "matched_signals": [],
+   "coverage_gap_score": 0.5,
+   "status_gap_score": 0.5,
+   "achievement_score": 0.6,
+   "underdog_score": 0.5,
+   "combined_score": 0.58,
+   "resource_b": true,
+   "resource_evidence": "borrowed equipment",
+   "resource_evidence_origin": "page",
+   "f_narrative_evidence": null,
+   "public_attention_gap": false,
+   "reddit_discussion_count": 3,
+   "reddit_discussion_gap": false,
+   "reddit_total_comments": 14,
+   "reddit_top_score": 31,
+   "reddit_popularity": "medium",
+   "known_audience_size": null,
+   "coverage_result_count": 12,
+   "coverage_news_result_count": 9,
+   "coverage_domains": [
+    "example.com"
+   ],
+   "institutional_sources": [],
+   "social_sources": [],
+   "public_attention_verification": "DEMO: placeholder evidence text.",
+   "caption": ""
+  },
+  {
+   "category": "F",
+   "title": "DEMO: Placeholder athlete C sets district record",
+   "url": "https://example.com/demo-story-3",
+   "entities": [
+    "Demo Athlete C"
+   ],
+   "description": "Fictional demo record used only to preview the interface.",
+   "published_at": "2026-09-29T11:00:00Z",
+   "source_name": "Demo Sports Daily",
+   "matched_signals": [],
+   "coverage_gap_score": 0.5,
+   "status_gap_score": 0.5,
+   "achievement_score": 0.7,
+   "underdog_score": 0.3,
+   "combined_score": 0.55,
+   "resource_b": false,
+   "resource_evidence": null,
+   "resource_evidence_origin": null,
+   "f_narrative_evidence": "first athlete from her village",
+   "public_attention_gap": true,
+   "reddit_discussion_count": 0,
+   "reddit_discussion_gap": true,
+   "reddit_total_comments": 0,
+   "reddit_top_score": 0,
+   "reddit_popularity": "low",
+   "known_audience_size": null,
+   "coverage_result_count": 12,
+   "coverage_news_result_count": 9,
+   "coverage_domains": [
+    "example.com"
+   ],
+   "institutional_sources": [],
+   "social_sources": [],
+   "public_attention_verification": "DEMO: placeholder evidence text.",
+   "caption": ""
+  },
+  {
+   "category": "B",
+   "title": "DEMO: Placeholder athlete D, verification did not complete",
+   "url": "https://example.com/demo-story-4",
+   "entities": [
+    "Demo Athlete D"
+   ],
+   "description": null,
+   "published_at": "2026-09-28T07:00:00Z",
+   "source_name": "Demo Herald",
+   "matched_signals": [],
+   "coverage_gap_score": 0.5,
+   "status_gap_score": 0.5,
+   "achievement_score": 0.5,
+   "underdog_score": 0.4,
+   "combined_score": 0.44,
+   "resource_b": true,
+   "resource_evidence": "practises on a dirt track",
+   "resource_evidence_origin": "page",
+   "f_narrative_evidence": null,
+   "public_attention_gap": false,
+   "reddit_discussion_count": null,
+   "reddit_discussion_gap": false,
+   "reddit_total_comments": 14,
+   "reddit_top_score": 31,
+   "reddit_popularity": "unknown",
+   "known_audience_size": null,
+   "coverage_result_count": 12,
+   "coverage_news_result_count": 9,
+   "coverage_domains": [
+    "example.com"
+   ],
+   "institutional_sources": [],
+   "social_sources": [],
+   "public_attention_verification": "DEMO: placeholder evidence text.",
+   "caption": ""
+  }
+ ]
+}
